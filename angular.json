@@ -126,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "email-delivery-test"
+    }
+  },
+  "defaultProject": "email-delivery-test",
+  "cli": {
+    "analytics": "be9a0248-e466-474c-a904-fa110909249b"
+  }
 }
