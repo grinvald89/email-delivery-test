@@ -1,0 +1,31 @@
+<div class="title">
+    {{ IsEmailDeliverySectionActive ? 'Инструменты роста' : 'Рассылки' }}
+</div>
+
+<ul class="navigation">
+    <li class="link-container">
+        <a
+            routerLink="email-deliveries/sent"
+            routerLinkActive="link-container__link--active"
+            class="link-container__link"
+        >
+            Отправлены
+        </a>
+    </li>
+
+    <li class="link-container">
+        <a
+            routerLink="email-deliveries/draft"
+            routerLinkActive="link-container__link--active"
+            class="link-container__link"
+        >
+            Черновики
+        </a>
+    </li>
+
+    <li class="link-container">
+        <a href="#" class="link-container__link">
+            Запланированы
+        </a>
+    </li>
+</ul>
